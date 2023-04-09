@@ -1,0 +1,31 @@
+h1{
+    color: red;
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  #navbar{
+    background-color: green;
+    overflow: hidden;
+  }
+  #navbar a{
+    float: left;
+    color: indigo;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  #navbar a:hover{
+    background-color: yellowgreen;
+    color: black;
+  }
+  #navbar a.active{
+    background-color: aqua;
+    color: blueviolet;
+  }
+  body{
+    background-color: orangered;
+  }
